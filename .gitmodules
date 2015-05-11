@@ -1,0 +1,6 @@
+[submodule "fontpatcher"]
+	path = fontpatcher
+	url = https://github.com/powerline/fontpatcher.git
+[submodule "vim-powerline"]
+	path = vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
