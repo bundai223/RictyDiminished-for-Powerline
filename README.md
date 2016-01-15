@@ -19,6 +19,15 @@ IPA ゴシックのグリフを含まないため、使用可能な漢字グリ�
 
 # バージョン
 
+## Version 3.2.4-Powerline (15 Jan. 2016)
+
+* Ricty Diminished Version 3.2.4ベース
+* [powerline/fontpatcher](https://github.com/powerline/fontpatcher.git)をsubmoduleとして追加
+* powerline/fontpatcherを以下のように実行し、Powerlineグリフ埋め込みバージョンを作成
+```
+$ ls RictyDiminished*.ttf | grep -v Powerline | xargs fontpatcher/scripts/powerline-fontpatcher
+```
+
 ## Version 3.2.4-Powerline (11 May. 2015)
 
 * Ricty Diminished Version 3.2.4ベース
